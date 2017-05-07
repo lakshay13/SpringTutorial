@@ -18,9 +18,4 @@ public class ConstructorInjectionExample {
     public void getResults() {
         System.out.println("Result of 5 and 7 is:" + addition.add(5,7));
     }
-
-
-
-
-
 }
