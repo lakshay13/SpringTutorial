@@ -13,5 +13,6 @@ http://www.springframework.org/schema/p ">
 
     <context:component-scan base-package="springdependency"/>
     <context:component-scan base-package="autowiring"/>
+    <context:component-scan base-package="aspectprogramming"/>
 
 </beans>

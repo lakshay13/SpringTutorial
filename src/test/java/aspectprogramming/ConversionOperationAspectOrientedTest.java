@@ -27,11 +27,21 @@ public class ConversionOperationAspectOrientedTest {
     @Autowired
     ConversionOperationAspectOriented conversionOperationAspectOriented;
 
+    @Autowired
+    ConversionOperationNonAspectOriented conversionOperationNonAspectOriented;
+
     @Test
     public void testAspectOrientedProgramming() {
         conversionOperationAspectOriented.stringMethod("Aspect Oriented");
         conversionOperationAspectOriented.decimalMethod(1.0f);
         conversionOperationAspectOriented.intMethod(1);
+    }
+
+    @Test
+    public void testNonAspectOrientedProgramming() {
+        conversionOperationNonAspectOriented.stringMethod("Aspect Oriented");
+        conversionOperationNonAspectOriented.decimalMethod(1.0f);
+        conversionOperationNonAspectOriented.intMethod(1);
     }
 }
 
